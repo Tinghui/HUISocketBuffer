@@ -10,7 +10,27 @@
 		E1DE69691795908D003F536A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DE69681795908D003F536A /* Foundation.framework */; };
 		E1DE696E1795908D003F536A /* HUISocketBuffer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1DE696D1795908D003F536A /* HUISocketBuffer.h */; };
 		E1DE69701795908D003F536A /* HUISocketBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DE696F1795908D003F536A /* HUISocketBuffer.m */; };
+		E1DE69CA17959859003F536A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DE697E179593D1003F536A /* UIKit.framework */; };
+		E1DE69CB17959859003F536A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DE69681795908D003F536A /* Foundation.framework */; };
+		E1DE69CC17959859003F536A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DE69A817959800003F536A /* CoreGraphics.framework */; };
+		E1DE69D217959859003F536A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1DE69D017959859003F536A /* InfoPlist.strings */; };
+		E1DE69D417959859003F536A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DE69D317959859003F536A /* main.m */; };
+		E1DE69D817959859003F536A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DE69D717959859003F536A /* AppDelegate.m */; };
+		E1DE69DB17959859003F536A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DE69DA17959859003F536A /* ViewController.m */; };
+		E1DE69DE17959859003F536A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1DE69DC17959859003F536A /* ViewController.xib */; };
+		E1DE69E317959877003F536A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1DE69E217959877003F536A /* Default-568h@2x.png */; };
+		E1DE69E617959924003F536A /* libHUISocketBuffer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DE69651795908D003F536A /* libHUISocketBuffer.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1DE69E417959917003F536A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1DE695D1795908D003F536A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1DE69641795908D003F536A;
+			remoteInfo = HUISocketBuffer;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E1DE69631795908D003F536A /* CopyFiles */ = {
@@ -31,6 +51,20 @@
 		E1DE696C1795908D003F536A /* HUISocketBuffer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HUISocketBuffer-Prefix.pch"; sourceTree = "<group>"; };
 		E1DE696D1795908D003F536A /* HUISocketBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUISocketBuffer.h; sourceTree = "<group>"; };
 		E1DE696F1795908D003F536A /* HUISocketBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUISocketBuffer.m; sourceTree = "<group>"; };
+		E1DE697C179593D1003F536A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E1DE697E179593D1003F536A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E1DE69A817959800003F536A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1DE69C917959859003F536A /* HUISocketBufferTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUISocketBufferTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DE69CF17959859003F536A /* HUISocketBufferTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUISocketBufferTest-Info.plist"; sourceTree = "<group>"; };
+		E1DE69D117959859003F536A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1DE69D317959859003F536A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1DE69D517959859003F536A /* HUISocketBufferTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HUISocketBufferTest-Prefix.pch"; sourceTree = "<group>"; };
+		E1DE69D617959859003F536A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1DE69D717959859003F536A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1DE69D917959859003F536A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1DE69DA17959859003F536A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1DE69DD17959859003F536A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E1DE69E217959877003F536A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +76,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1DE69C617959859003F536A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DE69E617959924003F536A /* libHUISocketBuffer.a in Frameworks */,
+				E1DE69CA17959859003F536A /* UIKit.framework in Frameworks */,
+				E1DE69CB17959859003F536A /* Foundation.framework in Frameworks */,
+				E1DE69CC17959859003F536A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				E1DE696A1795908D003F536A /* HUISocketBuffer */,
+				E1DE69CD17959859003F536A /* HUISocketBufferTest */,
 				E1DE69671795908D003F536A /* Frameworks */,
 				E1DE69661795908D003F536A /* Products */,
 			);
@@ -58,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				E1DE69651795908D003F536A /* libHUISocketBuffer.a */,
+				E1DE69C917959859003F536A /* HUISocketBufferTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				E1DE69681795908D003F536A /* Foundation.framework */,
+				E1DE697C179593D1003F536A /* SenTestingKit.framework */,
+				E1DE697E179593D1003F536A /* UIKit.framework */,
+				E1DE69A817959800003F536A /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,6 +134,31 @@
 			isa = PBXGroup;
 			children = (
 				E1DE696C1795908D003F536A /* HUISocketBuffer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1DE69CD17959859003F536A /* HUISocketBufferTest */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE69D617959859003F536A /* AppDelegate.h */,
+				E1DE69D717959859003F536A /* AppDelegate.m */,
+				E1DE69D917959859003F536A /* ViewController.h */,
+				E1DE69DA17959859003F536A /* ViewController.m */,
+				E1DE69DC17959859003F536A /* ViewController.xib */,
+				E1DE69E217959877003F536A /* Default-568h@2x.png */,
+				E1DE69CE17959859003F536A /* Supporting Files */,
+			);
+			path = HUISocketBufferTest;
+			sourceTree = "<group>";
+		};
+		E1DE69CE17959859003F536A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE69CF17959859003F536A /* HUISocketBufferTest-Info.plist */,
+				E1DE69D017959859003F536A /* InfoPlist.strings */,
+				E1DE69D317959859003F536A /* main.m */,
+				E1DE69D517959859003F536A /* HUISocketBufferTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +183,24 @@
 			productReference = E1DE69651795908D003F536A /* libHUISocketBuffer.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		E1DE69C817959859003F536A /* HUISocketBufferTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DE69DF17959859003F536A /* Build configuration list for PBXNativeTarget "HUISocketBufferTest" */;
+			buildPhases = (
+				E1DE69C517959859003F536A /* Sources */,
+				E1DE69C617959859003F536A /* Frameworks */,
+				E1DE69C717959859003F536A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1DE69E517959917003F536A /* PBXTargetDependency */,
+			);
+			name = HUISocketBufferTest;
+			productName = HUISocketBufferTest;
+			productReference = E1DE69C917959859003F536A /* HUISocketBufferTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -130,9 +223,23 @@
 			projectRoot = "";
 			targets = (
 				E1DE69641795908D003F536A /* HUISocketBuffer */,
+				E1DE69C817959859003F536A /* HUISocketBufferTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1DE69C717959859003F536A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DE69D217959859003F536A /* InfoPlist.strings in Resources */,
+				E1DE69DE17959859003F536A /* ViewController.xib in Resources */,
+				E1DE69E317959877003F536A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1DE69611795908D003F536A /* Sources */ = {
@@ -143,7 +250,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1DE69C517959859003F536A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DE69D417959859003F536A /* main.m in Sources */,
+				E1DE69D817959859003F536A /* AppDelegate.m in Sources */,
+				E1DE69DB17959859003F536A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1DE69E517959917003F536A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1DE69641795908D003F536A /* HUISocketBuffer */;
+			targetProxy = E1DE69E417959917003F536A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1DE69D017959859003F536A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DE69D117959859003F536A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1DE69DC17959859003F536A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1DE69DD17959859003F536A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E1DE69711795908D003F536A /* Debug */ = {
@@ -223,6 +367,39 @@
 			};
 			name = Release;
 		};
+		E1DE69E017959859003F536A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUISocketBufferTest/HUISocketBufferTest-Prefix.pch";
+				INFOPLIST_FILE = "HUISocketBufferTest/HUISocketBufferTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1DE69E117959859003F536A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HUISocketBufferTest/HUISocketBufferTest-Prefix.pch";
+				INFOPLIST_FILE = "HUISocketBufferTest/HUISocketBufferTest-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -242,6 +419,16 @@
 				E1DE69751795908D003F536A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1DE69DF17959859003F536A /* Build configuration list for PBXNativeTarget "HUISocketBufferTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DE69E017959859003F536A /* Debug */,
+				E1DE69E117959859003F536A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
